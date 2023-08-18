@@ -14,8 +14,8 @@ class Student:
         print(f'name:{self.name} major:{self.major} gpa:{self.gpa}')
 
 # object creation
-s1 = Student("Film","MIT",3.00)
-s2 = Student("Mind","DBM",3.55)
+# s1 = Student("Film","MIT",3.00)
+# s2 = Student("Mind","DBM",3.55)
 #s3 = Student()
 # display attributes of object
 print(s1.name,s1.major,s1.gpa)

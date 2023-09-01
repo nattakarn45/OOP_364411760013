@@ -13,23 +13,34 @@
 # จากนั้นแสดงข้อมูลทางหน้าจอภาพ
 #
 # 15 นาที
-# """
+# """สร้างคลาส
 
 class Vehicle:
+    my_vihecle = []
+
     def __init__(self,brand,model,color,maxspeed,price):
         self.brand = brand
         self.model = model
         self.color = color
         self.maxspeed = maxspeed
         self.price = price
-        # self.my_vihicle.append(self)
-    def Vehicle_info(self):
+        # self.my_vihecle.append(self)
+
+    def vehicle_detail(self):
         print(f'brand:{self.brand} '
               f'model:{self.model} '
               f'color:{self.color} '
               f'maxspeed:{self.maxspeed} '
               f'price:{self.price} ')
+    #ลบข้อมูล
+    def delete_vehicle(self,index):
+        self.my_vihecle.pop(index)
 
+    def edit_vehicle_price(self,index,new_price):
+        self.my_vihecle[index].price = new_price
+
+    def edit_vehicle_color(self,index,new_color):
+        self.my_vihecle[index].color = new_color
 
 
 # vc = []

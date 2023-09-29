@@ -60,7 +60,7 @@ def delete_vehicle():
         print("Your data has been deleted.")
         print("---------------------------------\n")
 
-# edit vehicle price
+# edit vehicle price แก้ไข
 def edit_vehicle_price():
     display_vehicle()
     if len(Vehicle.my_vihecle) != 0:

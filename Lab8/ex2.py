@@ -8,7 +8,7 @@ class Person():
     def info(self):
         print(f'Name: {self.name} Age: {self.age} Gender: {self.gender}')
 
-class Employee(Person):# คลาสเอ็มโพยี่สืบทอดคลาสมาจากเพอเซิน
+class Employee(Person):# คลาส Employeeสืบทอดคลาสมาจาก Person
     def __init__(self):
         self.emp_id = ""
         self.position =""
